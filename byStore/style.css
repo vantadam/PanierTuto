@@ -1,0 +1,102 @@
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background-color: rgb(210, 210, 210);
+text-align: center;
+}
+.product{
+ width: 300px;
+ background-color: rgb(150, 204, 187);
+ border-radius: 20px;
+ height: 500px;
+ margin-bottom: 75px;
+ 
+
+}
+img{
+    width: 200px;
+  
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    background-color: rgb(17, 54, 58);
+    color: aliceblue;
+    font-weight: bolder;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 7px 5px 5px black ;
+}
+.button:hover{
+cursor: pointer;
+background-color: rgb(28, 92, 100);
+}
+.Prname{
+    font-size: 20px;
+    font-weight: bold;
+}
+.desc{
+    text-align: left;
+    width: 250px;
+    margin-left: 33px;
+}
+.price{
+    font-weight: bold;
+}
+.prd {
+    border-style: solid;
+    border-width: 2px;
+    border-color:  rgb(28, 92, 100);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.counter{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: space-around ;
+    margin-right: 10px;
+    
+}
+.pan{
+    width: 50%;
+    margin-top: 30px;
+    
+}
+.prd img{
+    width: 150px;
+}
+.counterBtn{
+    background-color:  rgb(28, 92, 100);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: aliceblue;
+    font-weight: bolder;
+    border-radius: 100%;
+    text-align: center;
+}
+.quantity{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.tot{
+    position: absolute;
+    right:250px;
+    top:300px;
+    background-color: rgb(28, 92, 100);
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    font-weight: bolder;
+}
+#yourTotal{
+    font-size: larger;
+}
